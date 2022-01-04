@@ -17,3 +17,4 @@ class BlogController extends AbstractController
             'name' => 'index',
         ]);
     }
+}
