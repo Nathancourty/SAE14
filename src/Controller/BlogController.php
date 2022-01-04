@@ -18,11 +18,11 @@ class BlogController extends AbstractController
         ]);
     }
 }
-{
+
     /**
      * @Route("/blog", name="blog")
      */
-    public function index(): Response
+    public function index():
     {
         return $this->render('portfolio.html.twig', [
             'name' => 'portfolio',
