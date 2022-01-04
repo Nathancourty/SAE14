@@ -17,15 +17,3 @@ class BlogController extends AbstractController
             'name' => 'index',
         ]);
     }
-}
-
-    /**
-     * @Route("/blog", name="blog")
-     */
-    public function index():
-    {
-        return $this->render('portfolio.html.twig', [
-            'name' => 'portfolio',
-        ]);
-    }
-}
