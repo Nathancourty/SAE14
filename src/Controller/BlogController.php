@@ -19,7 +19,7 @@ class BlogController extends AbstractController
     }
 
     /**
-     * @Route("/portfolio", name="portfolio")
+     * @Route("/portfolio.html.twig", name="portfolio")
      */
     public function portfolio()
     {
