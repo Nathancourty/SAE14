@@ -27,4 +27,14 @@ class BlogController extends AbstractController
             'title' => 'portfolio',
         ]);
     }
+
+     /**
+     * @Route("/accueil.html.twig", name="accueil")
+     */
+    public function accueil()
+    {
+        return $this->render('accueil.html.twig', [
+            'title' => 'accueil',
+        ]);
+    }
 }  
