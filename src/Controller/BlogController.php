@@ -17,15 +17,14 @@ class BlogController extends AbstractController
             'title' => 'index',
         ]);
     }
-}
-{
+
     /**
      * @Route("/portfolio", name="portfolio")
      */
     public function portfolio()
     {
-        return $this->render('html/portfolio.html.twig', [
+        return $this->render('portfolio.html.twig', [
             'title' => 'portfolio',
         ]);
     }
-}
+}  
