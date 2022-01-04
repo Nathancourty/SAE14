@@ -18,3 +18,14 @@ class BlogController extends AbstractController
         ]);
     }
 }
+{
+    /**
+     * @Route("/portfolio", name="portfolio")
+     */
+    public function portfolio()
+    {
+        return $this->render('html/portfolio.html.twig', [
+            'title' => 'portfolio',
+        ]);
+    }
+}
