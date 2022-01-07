@@ -56,12 +56,12 @@ class BlogController extends AbstractController
         ]);
     }
      /**
-     * @Route("/administer.html.twig", name="administer")
+     * @Route("/administrer.html.twig", name="administrer")
      */
-    public function administer()
+    public function administrer()
     {
-        return $this->render('administer.html.twig', [
-            'title' => 'administer',
+        return $this->render('administrer.html.twig', [
+            'title' => 'administrer',
         ]);
     } 
      /**
