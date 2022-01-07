@@ -54,5 +54,32 @@ class BlogController extends AbstractController
         return $this->render('formulaire.html.twig', [
             'title' => 'formulaire',
         ]);
-    }  
+    }
+     /**
+     * @Route("/administer.html.twig", name="administer")
+     */
+    public function administer()
+    {
+        return $this->render('administer.html.twig', [
+            'title' => 'administer',
+        ]);
+    } 
+     /**
+     * @Route("/connecter.html.twig", name="connecter")
+     */
+    public function connecter()
+    {
+        return $this->render('connecter.html.twig', [
+            'title' => 'conncter',
+        ]);
+    } 
+     /**
+     * @Route("/programmer.html.twig", name="programmer")
+     */
+    public function programmer()
+    {
+        return $this->render('programmer.html.twig', [
+            'title' => 'programmer',
+        ]);
+    }   
 }
