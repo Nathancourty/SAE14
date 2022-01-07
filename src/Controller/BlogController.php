@@ -81,5 +81,14 @@ class BlogController extends AbstractController
         return $this->render('programmer.html.twig', [
             'title' => 'programmer',
         ]);
-    }   
+    }
+     /**
+     * @Route("/loisir.html.twig", name="loisir")
+     */
+    public function loisir()
+    {
+        return $this->render('loisir.html.twig', [
+            'title' => 'loisir',
+        ]);
+    }    
 }
