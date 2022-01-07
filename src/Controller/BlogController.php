@@ -46,4 +46,13 @@ class BlogController extends AbstractController
             'title' => 'cv',
         ]);
     }
+    /**
+     * @Route("/formulaire.html.twig", name="formulaire")
+     */
+    public function formulaire()
+    {
+        return $this->render('formulaire.html.twig', [
+            'title' => 'formulaire',
+        ]);
+    }  
 }
