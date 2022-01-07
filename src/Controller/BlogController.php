@@ -37,4 +37,13 @@ class BlogController extends AbstractController
             'title' => 'accueil',
         ]);
     }
-}  
+    /**
+     * @Route("/cv.html.twig", name="cv")
+     */
+    public function cv()
+    {
+        return $this->render('cv.html.twig', [
+            'title' => 'cv',
+        ]);
+    }
+}
