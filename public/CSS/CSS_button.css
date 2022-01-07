@@ -54,3 +54,20 @@ a:hover span:nth-child(2)
     transform-origin: left;
     transition: transform 0.5s;
 }
+
+a span:nth-child(3)
+{
+    right: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+a:hover span:nth-child(3)
+{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
