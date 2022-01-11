@@ -96,25 +96,25 @@ h1
 
 .contrainer .box:nth-child(1) .icon
 {
-    background: url('file:///D:/cours/SAE14/image/foot.image.jpg');
+    background: url('image/foot.image.jpg');
 }
 .contrainer .box:nth-child(1)
 {
-    background: url('file:///D:/cours/SAE14/image/ski-image.jpg');
+    background: url('image/ski-image.jpg');
 }
 .contrainer .box:nth-child(2) .icon
 {
-    background: url('file:///D:/cours/SAE14/image/image_gaming.jpg');
+    background: url('image/image_gaming.jpg');
 }
 .contrainer .box:nth-child(2)
 {
-    background: url('file:///D:/cours/SAE14/image/netflix-image.jpg');
+    background: url('image/netflix-image.jpg');
 }
 .contrainer .box:nth-child(3) .icon
 {
-    background: url('file:///D:/cours/SAE14/image/image1-cuisine.jpg');
+    background: url('image/image1-cuisine.jpg');
 }
 .contrainer .box:nth-child(3)
 {
-    background: url('file:///D:/cours/SAE14/image/image2-cuisine.jpg');
+    background: url('image/image2-cuisine.jpg');
 }
