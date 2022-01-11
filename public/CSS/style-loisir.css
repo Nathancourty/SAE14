@@ -1,0 +1,120 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #252525;
+}
+h1
+{
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+.contrainer
+{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+    background: #252525;
+}
+.contrainer .box
+{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #252525;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.contrainer .box .icon
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.5s;
+    z-index: 1;
+}
+.contrainer .box:hover .icon
+{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.contrainer .box .icon .fa
+{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.5s;
+    color: #fff;  
+}
+.contrainer .box:hover .icon .fa
+{
+    font-size: 40px;
+}
+.contrainer .box .content
+{
+    position: absolute;
+    top: 100%;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+.contrainer .box:hover .content
+{
+    top: 100PX;
+    opacity: 1;
+}
+.contrainer .box .content h3
+{
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+.contrainer .box .content P
+{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.contrainer .box:nth-child(1) .icon
+{
+    background: url('file:///D:/cours/SAE14/image/foot.image.jpg');
+}
+.contrainer .box:nth-child(1)
+{
+    background: url('file:///D:/cours/SAE14/image/ski-image.jpg');
+}
+.contrainer .box:nth-child(2) .icon
+{
+    background: url('file:///D:/cours/SAE14/image/image_gaming.jpg');
+}
+.contrainer .box:nth-child(2)
+{
+    background: url('file:///D:/cours/SAE14/image/netflix-image.jpg');
+}
+.contrainer .box:nth-child(3) .icon
+{
+    background: url('file:///D:/cours/SAE14/image/image1-cuisine.jpg');
+}
+.contrainer .box:nth-child(3)
+{
+    background: url('file:///D:/cours/SAE14/image/image2-cuisine.jpg');
+}
