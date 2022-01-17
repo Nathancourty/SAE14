@@ -60,3 +60,7 @@ a
     cursor: pointer;
     margin: 12px 0;
 }
+.title2
+{
+    display: flex;
+}
