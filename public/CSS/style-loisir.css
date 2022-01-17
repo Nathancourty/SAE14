@@ -93,28 +93,7 @@ h1
     padding: 0;
     color: #fff;
 }
-
-.contrainer .box:nth-child(1) .icon
+.title2
 {
-    background: url('image/foot.image.jpg');
-}
-.contrainer .box:nth-child(1)
-{
-    background: url('image/ski-image.jpg');
-}
-.contrainer .box:nth-child(2) .icon
-{
-    background: url('image/image_gaming.jpg');
-}
-.contrainer .box:nth-child(2)
-{
-    background: url('image/netflix-image.jpg');
-}
-.contrainer .box:nth-child(3) .icon
-{
-    background: url('image/image1-cuisine.jpg');
-}
-.contrainer .box:nth-child(3)
-{
-    background: url('image/image2-cuisine.jpg');
+    display: flex;
 }
