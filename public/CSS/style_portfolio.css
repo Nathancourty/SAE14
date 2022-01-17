@@ -128,3 +128,7 @@ p
 {
     color: rgb(153, 153, 153);
 }
+.title2
+{
+    display: flex;
+}
